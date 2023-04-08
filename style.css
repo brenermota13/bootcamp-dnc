@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+color: #FFFFFF;
+}
+
+.menu:hover{
+color: rgb(9, 53, 250);
+}
+
+#menuAcima{
+position: absolute;
+width: 1444px;
+height: 103px;
+left: 0px;
+top: 0px;
+background: #303030;
+justify-content:space-around;
+align-items: center;
+border-bottom: 1px; solid;
+} 
+
+#menu1{
+display: flex;
+position: absolute;
+width: 72px;
+height: 30px;
+left: 96px;
+top: 35px;
+text-decoration: none;
+}
+
+#menu2{
+position: absolute;
+width: 194px;
+height: 30px;
+left: 203px;
+top: 35px;
+text-decoration: none;
+}
+
+#menu3{
+position: absolute;
+width: 311px;
+height: 30px;
+left: 429px;
+top: 35px;
+text-decoration: none;
+}
+
+#botãoLogin{
+position: absolute;
+width: 80px;
+height: 39px;
+left: 1245px;
+top: 31px;
+background: #0C70F2;
+box-shadow: 7px 5px 6px rgba(177, 213, 253, 0.25);
+position: absolute;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 24px;
+color: #FFFFFF;
+border: none;
+cursor: pointer;
+}
