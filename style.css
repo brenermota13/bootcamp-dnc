@@ -1,6 +1,16 @@
+:root{
+    --azul-dnc:#0C70F2;
+    --preto-dnc:#303030;
+    --cinza-hover:#C9C9C9;
+    --font-padrao:'Inter';
+}
+
+
 body{
     margin: 0px;
     padding: 0px;
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%), #303030;
+    border: 1px solid #BABABA;
 }
 
 .menu{
@@ -25,7 +35,7 @@ top: 0px;
 background: #303030;
 justify-content:space-around;
 align-items: center;
-border-bottom: 1px; solid;
+border-bottom: 1px solid;
 } 
 
 #menu1{
@@ -73,4 +83,50 @@ line-height: 24px;
 color: #FFFFFF;
 border: none;
 cursor: pointer;
+}
+ 
+/*sessão princpal do site */
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+header{
+    color: white;
+    font-family: var(--font-padrao);
+}
+header h1{
+    position: absolute;
+    width: 671px;
+    height: 97px;
+    left: 384px;
+    top: 100px;
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: 800px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 97px;
+    white-space: nowrap;
+}
+header h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700px;
+    position: absolute;
+    width: 1018px;
+    height: 192px;
+    left: 210px;
+    top: 250px;
+}
+header .invert{
+    background-color: #070707;
+    font-weight: bold;
+    padding: 5px;
+    
+
 }
