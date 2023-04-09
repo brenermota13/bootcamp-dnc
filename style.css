@@ -127,6 +127,70 @@ header .invert{
     background-color: #070707;
     font-weight: bold;
     padding: 5px;
-    
+}
 
+/*estilisação do formulário*/ 
+
+form{
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  color: white;
+  font-family: var(--font-padrao);
+  font-size: 30px;
+  font-weight: 600px;
+  
+}
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form input{
+    border-radius: 10px;
+    height: 35px;
+    border: 0px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+#form1{
+    position:absolute;
+    width: 630px;
+    height: 0px;
+    left: 405px;
+    top: 650px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+   }
+form input::placeholder{
+    color:  rgba(57, 57, 57, 0.5);
+   }
+.checkBox-Itens label{
+     font-size: 25px;
+   }
+.checkBox-Itens{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input[type="checkbox"]{
+    transform: scale(1.7);
+}
+input[type="submit"]{
+    width: 630px;
+    height: 56px;
+    left: 405px;
+    top: 1465px;
+    background: rgba(12, 112, 242, 0.9);
+    box-shadow: 0px 6px 4px rgba(12, 112, 242, 0.25);
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin-top: 70px;
+    cursor: pointer;
 }
