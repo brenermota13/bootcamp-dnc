@@ -192,5 +192,75 @@ input[type="submit"]{
     line-height: 39px;
     color: #FFFFFF;
     margin-top: 70px;
-    cursor: pointer;
+    cursor: point;
+}
+/*estilisação do rodapé*/
+
+#rodape{
+position: absolute;
+width: 1440px;
+height: 520px;
+left: 0px;
+top: 1789px;
+background: #0C70F2;
+display:flex;
+}
+#escolas h1{
+width: 302px;
+height: 330px;
+left: 72px;
+top: 1845px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+font-size: 25px;
+margin: 40px 20px 50px 80px;
+}
+#sobre h1{
+width: 225px;
+height: 270px;
+left: 483px;
+top: 1845px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+margin: 40px 20px 50px 80px;
+}
+#letrinhas{
+width: 446px;
+height: 96px;
+left: 913px;
+top: 1962px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+margin: 40px 20px 50px 80px;
+}
+#termos{
+text-align: center;
+width: 477px;
+height: 30px;
+left: 444px;
+top: 2247px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
 }
